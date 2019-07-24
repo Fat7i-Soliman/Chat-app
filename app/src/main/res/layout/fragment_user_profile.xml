@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".UserProfileFragment">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/defaultimg" />
+
+    <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="User Name"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"/>
+
+    <TextView
+            android:id="@+id/profile_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="hey there iam using chat app."
+            android:textColor="@color/tanColor"
+            android:textSize="16sp" />
+
+
+
+    <Button
+            android:id="@+id/add_friend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_status"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/buttons"
+
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:text="Send Friend Request"
+            android:textColor="@android:color/background_light" />
+
+    <Button
+            android:id="@+id/reject_friend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/add_friend"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:visibility="invisible"
+            android:background="@drawable/buttons"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:text="Reject Friend Request"
+            android:textColor="@android:color/background_light" />
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryDark"
+                tools:context=".WelcomeFragment">
+
+    <TextView
+            android:text="Welcome to How U Doing App ."
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/background_light"
+            android:layout_height="wrap_content" android:id="@+id/welcome_text"
+            android:textSize="24sp" android:textStyle="bold|italic"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="270dp"/>
+    <Button
+            android:id="@+id/log_in_bu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/buttons"
+            android:textColor="@android:color/background_light"
+            android:layout_below="@id/welcome_text"
+            android:text="@string/already_have_account" android:padding="10dp"/>
+
+    <Button
+            android:id="@+id/create_acc_bu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/log_in_bu"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttons"
+            android:text="@string/create_new_account"
+            android:textColor="@android:color/background_light" android:padding="10dp"/>
+</RelativeLayout>

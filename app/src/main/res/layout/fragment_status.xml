@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".StatusFragment">
+
+    <com.google.android.material.textfield.TextInputLayout
+
+            android:id="@+id/edit_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="48dp"
+            android:hint="Change Status">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+            android:id="@+id/save_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_status"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/buttons"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Save Changes"
+            android:textColor="@android:color/background_light" />
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1025351783843",
+    "firebase_url": "https://howudoing-d01e7.firebaseio.com",
+    "project_id": "howudoing-d01e7",
+    "storage_bucket": "howudoing-d01e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025351783843:android:3616b1c27f4952b0",
+        "android_client_info": {
+          "package_name": "com.example.howudoing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025351783843-a0mb92mvb7b02glum17fkn5co3pntc2n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.howudoing",
+            "certificate_hash": "41249c0f5b2e5549a9d2c5951dcb6ac92dc27f26"
+          }
+        },
+        {
+          "client_id": "1025351783843-hqo0euqtks2iadsoovalifj74pu32ebp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWmAG0hlU3BBdxswYWh9OkuCSa0VXtJPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025351783843-hqo0euqtks2iadsoovalifj74pu32ebp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
